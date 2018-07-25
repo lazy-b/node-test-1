@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover ./node_modules/mocha/bin/_mocha",
-    "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +12,6 @@
   "devDependencies": {
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
-    "should": "^13.2.1",
-    "coveralls": "^3.0.0"
+    "should": "^13.2.1"
   }
 }
